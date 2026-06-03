@@ -1,0 +1,55 @@
+# Embedded Development .gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# STM32CubeIDE
+Debug/
+Release/
+.settings/
+.cproject
+.project
+*.launch
+Drivers/CMSIS/
+Drivers/STM32F1xx_HAL_Driver/
+
+# Keil
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+Listings/
+Objects/
+RTE/
+
+# Build outputs
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.crf
+
+# Compiled Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docs (keep plan, ignore generated)
+*.docx
+*.pdf
+
+# Large binaries
+*.zip
+*.tar.gz
+*.rar
